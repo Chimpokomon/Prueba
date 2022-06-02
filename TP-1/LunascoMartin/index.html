@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunasco Martin</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<link rel="shortcut icon" href="penguin.png" type="image/x-icon">
+<link rel="stylesheet" href="styles.css">
+
+
+<script src="script.js"></script>
+
+</head>
+<body>
+    <header>
+        <a href="./index.html"><img src="penguin.png" alt="" width="100" height="100" style="float:left;">
+        </a>
+        <h1 style="text-align:center;">TP Nro 1-Lunasco, Martin</h1><br>
+    </header>
+    <aside>
+        <ul>
+            <li><a onclick="funcionapi1()">Link API 1</a></li>
+            <li><a onclick="funcionapi2()">Link API 2</a></li>
+        </ul>
+    </aside>
+    <section>
+        <div>
+            <p id="parrafo1">hola</p>
+            <div id="parrafo2"><br>
+                <h3>bitly url shortener</h3>
+                <p>ingrese url (incluir http/https)</p>
+            <input type="text" id="longurl" width="20" pattern="https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)">
+            <button id="acortar" onclick="acortarUrl()">acortar url</button><br>
+            <span id="shorturl"></span>
+            </div>
+            
+        </div>
+    </section>
+    <footer>
+<h4 style="text-align: right">TygWeb 2022   </h4>
+    </footer>
+ 
+</body>
+
+</html>

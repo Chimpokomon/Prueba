@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'oraghon_scriptregular';
+    src: url('./fonts/oraghon_script-webfont.woff2') format('woff2'),
+         url('./fonts/oraghon_script-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'pamela_wants_to_ride_regular';
+    src: url('./fonts/pamela_wants_to_ride-webfont.woff2') format('woff2'),
+         url('./fonts/pamela_wants_to_ride-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'righteousregular';
+    src: url('./fonts/righteous-regular-webfont.woff2') format('woff2'),
+         url('./fonts/righteous-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'montereyflfregular';
+    src: url('./fonts/montereyflf-webfont.woff2') format('woff2'),
+         url('./fonts/montereyflf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'kasseflfregular';
+    src: url('./fonts/kasseflf-webfont.woff2') format('woff2'),
+         url('./fonts/kasseflf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+header { background-color:azure; }
+
+h1 { font-family:'pamela_wants_to_ride_regular'; text-align: center; color:#ef763a; font-size: 35px; }
+
+aside { background-color:deepskyblue; width: 15%; height: 500px; float: left; text-align: center; }
+
+section { background-color: rgb(125, 255, 238); min-height: 500px; max-height: fit-content; }
+
+p { font-family: 'righteousregular'; font-size: medium; text-align: center;}
+
+footer { background-color: rgb(125, 255, 238); font-family:'Trebuchet MS'; text-align: right; color:black; font-size: 20px; 
+font-style: italic; }
+
+header, aside, section, footer { border: 2px solid; padding: 10px; }
+
+#frase1, #frase2, #frase3 { font-family: 'oraghon_scriptregular'; font-size:xx-large; text-align: center;}
+
+#frase1 { text-shadow:  2px 1px #cf4dbe; }
+
+#frase2 { text-shadow:  2px 1px #FF8345; }
+
+#frase3 { text-shadow:  2px 1px #D9D900; }
+
+ul { font-family: 'kasseflfregular'; text-align: center; list-style-position: inside; list-style-image: url('./pics/bullet.png'); }
+
+button { font-family: 'montereyflfregular'; font-weight: bolder; font-size: medium; background-image: url('./pics/button.png'); 
+width: 85%; height: 15%; margin: 10px; border-radius: 20px; border-color:cadetblue; }

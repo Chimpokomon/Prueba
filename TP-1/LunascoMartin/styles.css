@@ -1,0 +1,5 @@
+
+header,aside,section,footer {border:1px solid black;border-collapse: collapse;background-color: lightblue;}
+aside {width: 30%;float: left;height: 450px;}
+section {text-align: center;height: 450px;}
+img {max-width: 400px;max-height: 400px;}

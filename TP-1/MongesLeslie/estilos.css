@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(186, 142, 228);
+}
+header{
+
+    text-align:center;
+    text-decoration: underline;
+    font-family: 'Chela One', cursive;
+    font-size: 20px;
+    color: black;
+    position: relative;
+   
+   }
+  
+.caja1 {
+    background-color: rgb(125, 125, 229);
+    width: 1500px;
+    height: 80px;
+    float: left;
+    margin: 10px;
+}
+
+.caja2 {
+    background-color: rgb(0, 255, 200);
+    width: 150px;
+    height: 550px;
+    float: left;
+    border-top: 2px solid rgb(14, 13, 13);
+    border-right: 2px solid rgb(17, 17, 17);
+    border-bottom: 2px solid rgb(13, 13, 13);
+    border-left: 2px solid rgb(10, 10, 10);
+    margin: 10px;
+}
+
+.caja3 {
+    background-color: rgb(52, 223, 135);
+    width: 1300px;
+    height: 550px;
+    float: left;
+    border-top: 2px solid rgb(155, 151, 151);
+    border-right: 2px solid rgb(178, 176, 176);
+    border-bottom: 2px solid rgb(170, 167, 167);
+    border-left: 2px solid rgb(127, 124, 124);
+    margin: 10px;
+}
+
+.caja4 {
+    background-color: rgb(148, 93, 219);
+    width: 1490px;
+    height: 30px;
+    float: left;
+    border-top: 2px solid rgb(20, 18, 18);
+    border-right: 2px solid rgb(32, 31, 31);
+    border-bottom: 2px solid rgb(18, 17, 17);
+    border-left: 2px solid rgb(24, 24, 24);
+    margin: 10px;
+}
+
+.contenedor {
+    width: 900px;
+    height: 900px;
+    border: black 20px;
+}
+/*ESTILOS DEL BOTON*/
+.button1 {
+    width: 80px;
+    height: 50px;
+    background-color: brown;
+}
+.button2 {
+    width: 80px;
+    height: 50px;
+    background-color: brown;
+}
+
+/*ESTILOS DE FRASES*/
+#f1 { 
+    text-shadow: 3px 3px 3px blue;
+    opacity: 0.5; 
+}
+#f2 { 
+    text-transform: 4px 3px 3px rgb(255, 0, 153);
+    opacity: 0.5; 
+}
+#f3 { 
+    font-family: 'Arial Narrow', Arial, sans-serif, 'Lucida Grane'; text-shadow: 4px 6px red;
+}

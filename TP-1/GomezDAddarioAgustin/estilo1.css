@@ -1,0 +1,144 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        text-decoration: none;
+    }
+    
+    body {
+        background-color: #f8d7f4;
+    }
+    
+    img {
+        width: 150px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    
+    span.textoImportante {
+        position: absolute;
+        top: 20px;
+        left: 45%;
+        font-family: serif;
+        font-size: 1.5em;
+        color: white;
+    }
+    
+    header {
+        background: rgb(109, 47, 157);
+        border-bottom: white 1px solid
+    }
+    
+    aside {
+        background: rgb(234, 153, 213);
+        width: 130px;
+        height: 800px;
+        border-bottom: 0px;
+        display: block;
+        border-right: white 1px solid;
+    }
+    
+    a.izq {
+        font-family: monospace;
+        color: rgb(36, 36, 117);
+        position: absolute;
+        text-shadow: 0.1em 0.1em 0.2em black;
+        left: 12px;
+        font-size: 170%;
+        text-decoration: underline;
+    }
+    
+    button:hover {
+        text-shadow: 0.1em 0.1em 0.2em black;
+        background-color: rgb(239, 232, 241);
+        border: #83f5b2 1em;
+        color: #d3f7e2;
+    }
+    
+    #boton1 {
+        font-size: 1em;
+        margin-left: 4%;
+        top: 20%;
+        position: relative;
+        background-color: #9f2bb6;
+        color: white;
+        text-align: center;
+        width: 90%;
+        height: 5%;
+    }
+    
+    #boton2 {
+        font-size: 1em;
+        margin-left: 4%;
+        top: 35%;
+        position: relative;
+        background-color: #9f2bb6;
+        color: white;
+        text-align: center;
+        width: 90%;
+        height: 5%;
+    }
+
+    #boton3 {
+        font-size: 1em;
+        margin-left: 4%;
+        top: 26%;
+        position: relative;
+        background-color: #9f2bb6;
+        color: white;
+        text-align: center;
+        width: 90%;
+        height: 5%;
+    }
+    
+    footer {
+        margin-bottom: 0px;
+        border-top: white 1px solid;
+        background: rgb(109, 47, 157);
+        height: 43px;
+        margin-top: 16%;
+        margin: 0px;
+        display: block;
+    }
+    
+    span.pie {
+        right: 30px;
+        font-family: serif;
+        color: white;
+        position: absolute;
+        bottom: 12px;
+    }
+
+    #resultado{
+        left: 10%;
+        position: absolute;
+        top: 30%;
+        right: 30%;
+        font-size: 1.7em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    h3{
+        color:rgb(170, 18, 18);
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        left: 10%;
+        position: absolute;
+        top: 20%;
+        font-size: 1.5em;
+        text-decoration: underline;
+    }
+
+    .estilo1{
+        text-shadow: 2px 2px 2px rgb(23, 212, 23);
+    }
+
+    .estilo2{
+        text-shadow: 2px 2px 2px rgb(100, 100, 230);
+    }
+
+    .estilo3{
+        text-shadow: 2px 2px 2px rgb(202, 0, 202);
+    }
+
+    li{
+        list-style:none;
+    }
